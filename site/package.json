@@ -1,0 +1,13 @@
+{
+  "name": "fellowship-tracker-site",
+  "version": "1.0.0",
+  "description": "Static site for fellowship and grant tracker",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

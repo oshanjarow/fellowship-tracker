@@ -1,0 +1,31 @@
+name: Send Email Digest
+
+on:
+  schedule:
+    # Run 1st + 15th of month at 9 AM UTC
+    - cron: '0 9 1,15 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send digest email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://yourusername.github.io/fellowship-tracker' }}
+        run: python email/digest.py

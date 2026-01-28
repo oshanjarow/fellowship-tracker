@@ -1,0 +1,251 @@
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f5f5f5;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 40px 0 30px;
+  border-bottom: 2px solid #1a73e8;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+  color: #202124;
+}
+
+.subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.filters select {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.filters input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.stats .divider {
+  color: #ccc;
+}
+
+/* Opportunity Cards */
+.opportunities {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card.closing-soon {
+  border-left: 4px solid #ea4335;
+}
+
+.card.expired {
+  opacity: 0.6;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.badge.urgent {
+  background: #fce8e6;
+  color: #c5221f;
+}
+
+/* Card Content */
+.card-title {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.card-title a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+
+.card-meta span {
+  color: #666;
+}
+
+.card-meta .source {
+  font-weight: 500;
+  color: #444;
+}
+
+.card-meta .type {
+  background: #e8f0fe;
+  color: #1967d2;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.card-meta .deadline {
+  color: #333;
+}
+
+.card-meta .no-deadline {
+  color: #999;
+  font-style: italic;
+}
+
+.card-description {
+  margin: 0 0 15px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.card-link {
+  display: inline-block;
+  color: #1a73e8;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .header {
+    padding: 30px 0 20px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .card-meta {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
