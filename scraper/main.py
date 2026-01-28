@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple, List
 
-from sources import gijn, gfmd, fundsforwriters, rss_feeds, jschools, direct
+from sources import gijn, gfmd, fundsforwriters, rss_feeds, jschools, direct, discovery
 from utils.dedup import deduplicate
 from utils.filter import filter_relevant
 from utils.scoring import add_relevance_scores
@@ -91,7 +91,16 @@ def main():
         ("RSS Feeds", rss_feeds.scrape),
         ("J-Schools", jschools.scrape),
         ("Direct Sources", direct.scrape),
+        ("Discovered Sources", discovery.scrape),
     ]
+
+    # Run source discovery (finds new sources for future scrapes)
+    print("\n[Discovery] Searching for new sources...")
+    try:
+        new_sources = discovery.discover_sources(max_new=10)
+        print(f"[Discovery] Found {len(new_sources)} new potential sources")
+    except Exception as e:
+        print(f"[Discovery] ERROR: {e}")
 
     for name, scraper in scrapers:
         print(f"\n[{name}] Scraping...")
