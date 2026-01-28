@@ -136,6 +136,48 @@
     "relevance_score": 10
   },
   {
+    "title": "Emergent Ventures",
+    "url": "https://www.mercatus.org/emergent-ventures",
+    "description": "Fast grants for ideas that improve society. Funds ambitious projects including journalism, media, research, and writing. Rolling applications, no restrictions on profit-making.",
+    "source": "Emergent Ventures",
+    "source_url": "https://www.mercatus.org/emergent-ventures",
+    "type": "grant",
+    "scraped_at": "2026-01-28T18:39:13.295484",
+    "deadline": null,
+    "funding_size": "$1,000 - $50,000",
+    "eligibility": "Open globally to anyone 13+. No citizenship or residency requirements.",
+    "bypass_filter": true,
+    "relevance_score": 10
+  },
+  {
+    "title": "Apply For An ACX Grant (2025)",
+    "url": "https://www.astralcodexten.com/p/apply-for-an-acx-grant-2025",
+    "description": "Annual grants from Scott Alexander's Astral Codex Ten for diverse projects including research, writing, and creative ventures. Funded 42 projects in 2025 round.",
+    "source": "ACX Grants",
+    "source_url": "https://www.astralcodexten.com/p/apply-for-an-acx-grant-2025",
+    "type": "grant",
+    "scraped_at": "2026-01-28T18:39:13.614037",
+    "deadline": null,
+    "funding_size": "$5,000 - $100,000",
+    "eligibility": "Open to anyone with a compelling project idea.",
+    "bypass_filter": true,
+    "relevance_score": 10
+  },
+  {
+    "title": "1517 Fund",
+    "url": "https://www.1517fund.com/",
+    "description": "Micro-grants and R&D funding for early-stage builders and researchers. Supports experimental projects, writing, and ideas outside traditional institutions.",
+    "source": "1517 Fund Medici Grant",
+    "source_url": "https://www.1517fund.com/",
+    "type": "grant",
+    "scraped_at": "2026-01-28T18:39:13.772400",
+    "deadline": null,
+    "funding_size": "$1,000 - $100,000",
+    "eligibility": "Open to young builders, researchers, and creators globally.",
+    "bypass_filter": true,
+    "relevance_score": 10
+  },
+  {
     "title": "The Fulcrum's 2026 Summer Journalism Fellowship | Solutions Journalism Network",
     "url": "https://www.solutionsjournalism.org/events/fulcrums-2026-summer-journalism-fellowship",
     "description": "The Fulcrum is taking applications for its 2026 Summer Journalism Fellowship. The 10\u2011week summer program is designed to train the next generation of journalists in solutions\u2011focused reporting and narrative complexity. The fellowship will run from June 8 through August 14, 2026. Apply by February 27, 2026.",
@@ -144,6 +186,20 @@
     "type": "opportunity",
     "scraped_at": "2026-01-28T18:34:20.927890",
     "relevance_score": 9
+  },
+  {
+    "title": "The Awesome Foundation",
+    "url": "https://www.awesomefoundation.org/en",
+    "description": "Monthly micro-grants for 'awesome' projects with no strings attached. 80+ local chapters worldwide funding arts, technology, community, and creative projects.",
+    "source": "Awesome Foundation",
+    "source_url": "https://www.awesomefoundation.org/en",
+    "type": "grant",
+    "scraped_at": "2026-01-28T18:39:14.392844",
+    "deadline": null,
+    "funding_size": "$1,000",
+    "eligibility": "Anyone can apply - individuals, groups, or organizations.",
+    "bypass_filter": true,
+    "relevance_score": 7
   },
   {
     "title": "USC Annenberg Fellowships",

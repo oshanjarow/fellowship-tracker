@@ -27,6 +27,43 @@ DIRECT_SOURCES = [
         "url": "https://pen.org/literary-awards/",
         "type": "award"
     },
+    # General-purpose grants that can fund journalism/nonfiction projects
+    {
+        "name": "Emergent Ventures",
+        "url": "https://www.mercatus.org/emergent-ventures",
+        "type": "grant",
+        "known_amount": "$1,000 - $50,000",
+        "known_description": "Fast grants for ideas that improve society. Funds ambitious projects including journalism, media, research, and writing. Rolling applications, no restrictions on profit-making.",
+        "known_eligibility": "Open globally to anyone 13+. No citizenship or residency requirements.",
+        "bypass_filter": True,
+    },
+    {
+        "name": "ACX Grants",
+        "url": "https://www.astralcodexten.com/p/apply-for-an-acx-grant-2025",
+        "type": "grant",
+        "known_amount": "$5,000 - $100,000",
+        "known_description": "Annual grants from Scott Alexander's Astral Codex Ten for diverse projects including research, writing, and creative ventures. Funded 42 projects in 2025 round.",
+        "known_eligibility": "Open to anyone with a compelling project idea.",
+        "bypass_filter": True,
+    },
+    {
+        "name": "1517 Fund Medici Grant",
+        "url": "https://www.1517fund.com/",
+        "type": "grant",
+        "known_amount": "$1,000 - $100,000",
+        "known_description": "Micro-grants and R&D funding for early-stage builders and researchers. Supports experimental projects, writing, and ideas outside traditional institutions.",
+        "known_eligibility": "Open to young builders, researchers, and creators globally.",
+        "bypass_filter": True,
+    },
+    {
+        "name": "Awesome Foundation",
+        "url": "https://www.awesomefoundation.org/en",
+        "type": "grant",
+        "known_amount": "$1,000",
+        "known_description": "Monthly micro-grants for 'awesome' projects with no strings attached. 80+ local chapters worldwide funding arts, technology, community, and creative projects.",
+        "known_eligibility": "Anyone can apply - individuals, groups, or organizations.",
+        "bypass_filter": True,
+    },
 ]
 
 
@@ -116,17 +153,31 @@ def scrape() -> List[dict]:
                     deadline = match.group(1).strip()
                     break
 
-            opportunities.append({
+            # Use known values if provided, otherwise use scraped values
+            final_description = source.get("known_description") or description
+            final_funding = source.get("known_amount") or funding_size
+            final_eligibility = source.get("known_eligibility")
+
+            opp = {
                 "title": title_text,
                 "url": source["url"],
-                "description": description,
+                "description": final_description,
                 "source": source["name"],
                 "source_url": source["url"],
                 "type": source["type"],
                 "scraped_at": datetime.utcnow().isoformat(),
                 "deadline": deadline,
-                "funding_size": funding_size,
-            })
+                "funding_size": final_funding,
+            }
+
+            if final_eligibility:
+                opp["eligibility"] = final_eligibility
+
+            # Mark if this should bypass relevance filter
+            if source.get("bypass_filter"):
+                opp["bypass_filter"] = True
+
+            opportunities.append(opp)
 
         except requests.RequestException as e:
             print(f"Error scraping {source['name']}: {e}")

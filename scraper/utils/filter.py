@@ -82,6 +82,10 @@ def is_for_organization(opportunity: dict) -> bool:
 
 def is_relevant(opportunity: dict) -> bool:
     """Check if an opportunity is relevant for individual narrative journalists."""
+    # Curated sources can bypass the filter
+    if opportunity.get("bypass_filter"):
+        return True
+
     title = opportunity.get("title", "").lower()
     description = opportunity.get("description", "").lower()
     opp_type = opportunity.get("type", "").lower()
