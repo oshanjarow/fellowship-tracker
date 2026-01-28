@@ -47,7 +47,7 @@ title: Fellowship & Grant Tracker
       {% endif %}
 
       {% if opp.deadline %}
-      <span class="detail deadline{% if opp.deadline | isClosingSoon %} urgent{% endif %}">{{ opp.deadline }}</span>
+      <span class="detail deadline{% if opp.deadline | isClosingSoon %} urgent{% endif %}">Deadline: {{ opp.deadline }}</span>
       {% endif %}
 
       {% if opp.region %}
