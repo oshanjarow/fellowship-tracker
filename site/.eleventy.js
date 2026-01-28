@@ -70,6 +70,7 @@ module.exports = function(eleventyConfig) {
       output: "_site",
       includes: "_includes"
     },
+    pathPrefix: "/fellowship-tracker/",
     templateFormats: ["njk", "html", "md"],
     htmlTemplateEngine: "njk"
   };
