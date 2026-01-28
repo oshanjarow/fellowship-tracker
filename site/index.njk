@@ -64,7 +64,11 @@ title: Fellowship & Grant Tracker
     </div>
 
     {% if opp.description and opp.description.length > 20 %}
-    <p class="card-description">{{ opp.description | truncate(180) }}</p>
+    <p class="card-description">{{ opp.description | truncate(250) }}</p>
+    {% endif %}
+
+    {% if opp.eligibility %}
+    <p class="card-eligibility"><span class="eligibility-label">Eligibility:</span> {{ opp.eligibility }}</p>
     {% endif %}
 
     <a href="{{ opp.url }}" class="card-link" target="_blank" rel="noopener">

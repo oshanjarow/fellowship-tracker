@@ -11,47 +11,55 @@ JSCHOOL_SOURCES = [
         "name": "Berkeley BCSP Ferriss Fellowship",
         "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
         "type": "fellowship",
-        "known_amount": "$10,000",  # Per recipient
+        "known_amount": "$10,000",
         "known_deadline": "January 31, 2026",
-        "known_description": "The Ferriss Fellowship supports journalists pursuing long-form narrative projects. Fellows receive funding and mentorship at UC Berkeley's Graduate School of Journalism."
+        "known_description": "Supports long-form narrative journalism projects on any topic. Fellows spend a semester at UC Berkeley working on book-length or major magazine projects with mentorship from faculty.",
+        "known_eligibility": "Mid-career journalists with significant publication history. Must be able to relocate to Berkeley for one semester."
     },
     {
         "name": "NYU Matthew Power Award",
         "url": "https://journalism.nyu.edu/about-us/awards-and-fellowships/matthew-power-literary-reporting-award/",
         "type": "award",
         "known_amount": "$15,000",
+        "known_description": "Honors ambitious, unconventional long-form narrative journalism that illuminates the human condition. Named after Matthew Power, who reported on overlooked people and places.",
+        "known_eligibility": "Freelance writers working on narrative nonfiction. Project must be in progress but not yet completed."
     },
     {
         "name": "Columbia Journalism Fellowships",
         "url": "https://journalism.columbia.edu/fellowships",
         "type": "fellowship",
-        "known_description": "Columbia offers various fellowships including the Knight-Bagehot Fellowship in Economics and Business Journalism, and the Maria Moors Cabot Prizes."
+        "known_description": "Multiple fellowship programs including Knight-Bagehot (business/economics journalism), Stabile Center (investigative), and international programs. Varies by specific fellowship.",
+        "known_eligibility": "Varies by program. Generally requires professional journalism experience."
     },
     {
         "name": "Knight-Wallace Fellowships",
         "url": "https://wallacehouse.umich.edu/knight-wallace/",
         "type": "fellowship",
         "known_amount": "$75,000 stipend",
-        "known_description": "A transformative eight-month fellowship at the University of Michigan for mid-career journalists. Fellows receive stipend, tuition, health insurance, and housing assistance."
+        "known_description": "Eight-month residential fellowship at University of Michigan for study, reflection, and collaboration. Fellows design their own course of study across all university departments.",
+        "known_eligibility": "Mid-career journalists (5+ years experience) from any medium. Must be able to relocate to Ann Arbor."
     },
     {
         "name": "Nieman Fellowships",
         "url": "https://nieman.harvard.edu/fellowships/",
         "type": "fellowship",
         "known_amount": "$75,000 stipend",
-        "known_description": "A year at Harvard University for journalists to pursue academic study and professional development. Fellows receive stipend, housing, and health benefits."
+        "known_description": "Academic year at Harvard for journalists to pursue any course of study. Focus on professional development and expanding intellectual horizons. Access to all Harvard courses and resources.",
+        "known_eligibility": "Mid-career journalists (5+ years experience). Strong preference for working journalists. Must relocate to Cambridge, MA."
     },
     {
         "name": "USC Annenberg Fellowships",
         "url": "https://annenberg.usc.edu/journalism/fellowships",
         "type": "fellowship",
-        "known_description": "USC Annenberg offers several fellowship programs for journalists at various career stages."
+        "known_description": "Various fellowship programs focusing on health journalism, specialized reporting, and professional development at USC in Los Angeles.",
+        "known_eligibility": "Varies by specific fellowship program."
     },
     {
         "name": "Northwestern Medill Fellowships",
         "url": "https://www.medill.northwestern.edu/professional-education/",
         "type": "fellowship",
-        "known_description": "Medill offers several fellowship programs including the O'Brien Fellowship in Public Service Journalism."
+        "known_description": "Programs including the O'Brien Fellowship in Public Service Journalism supporting investigative and public interest reporting projects.",
+        "known_eligibility": "Working journalists. Requirements vary by specific program."
     },
 ]
 
@@ -172,10 +180,14 @@ def scrape() -> List[dict]:
             if not description and source.get("known_description"):
                 description = source["known_description"]
 
+            # Get eligibility from known data
+            eligibility = source.get("known_eligibility")
+
             opportunities.append({
                 "title": title_text,
                 "url": source["url"],
                 "description": description,
+                "eligibility": eligibility,
                 "source": source["name"],
                 "source_url": source["url"],
                 "type": source["type"],
@@ -191,6 +203,7 @@ def scrape() -> List[dict]:
                 "title": source["name"],
                 "url": source["url"],
                 "description": source.get("known_description", f"Visit {source['url']} for more information."),
+                "eligibility": source.get("known_eligibility"),
                 "source": source["name"],
                 "source_url": source["url"],
                 "type": source["type"],
