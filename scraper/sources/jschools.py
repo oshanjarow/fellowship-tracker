@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from typing import List, Optional
 from datetime import datetime
 
+# IMPORTANT: known_description and known_eligibility are used as fallbacks when scraping succeeds
+# but returns empty content. These MUST be verified against the actual fellowship websites before
+# adding. Do not guess or fabricate descriptions based on fellowship names.
 JSCHOOL_SOURCES = [
     {
         "name": "Berkeley BCSP Ferriss Fellowship",
@@ -13,8 +16,8 @@ JSCHOOL_SOURCES = [
         "type": "fellowship",
         "known_amount": "$10,000",
         "known_deadline": "January 31, 2026",
-        "known_description": "Supports long-form narrative journalism projects on any topic. Fellows spend a semester at UC Berkeley working on book-length or major magazine projects with mentorship from faculty.",
-        "known_eligibility": "Mid-career journalists with significant publication history. Must be able to relocate to Berkeley for one semester."
+        "known_description": "Reporting grants supporting in-depth print and audio journalism on the science, policy, business, and culture of psychedelics. A project of the UC Berkeley Center for the Science of Psychedelics.",
+        "known_eligibility": "Open to journalists of all nationalities and backgrounds. No residency requirement."
     },
     {
         "name": "NYU Matthew Power Award",
@@ -198,12 +201,13 @@ def scrape() -> List[dict]:
 
         except requests.RequestException as e:
             print(f"Error scraping {source['name']}: {e}")
-            # Still add the source with known/fallback info
+            # When scraping fails, don't use hardcoded descriptions that may be outdated/wrong.
+            # Only include verifiable facts (URL, type) and prompt user to check the source.
             opportunities.append({
                 "title": source["name"],
                 "url": source["url"],
-                "description": source.get("known_description", f"Visit {source['url']} for more information."),
-                "eligibility": source.get("known_eligibility"),
+                "description": f"Unable to fetch current information. Visit {source['url']} for details.",
+                "eligibility": None,
                 "source": source["name"],
                 "source_url": source["url"],
                 "type": source["type"],
