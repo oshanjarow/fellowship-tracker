@@ -10,6 +10,7 @@ from typing import Optional, Tuple, List
 from sources import gijn, gfmd, fundsforwriters, rss_feeds, jschools, direct
 from utils.dedup import deduplicate
 from utils.filter import filter_relevant
+from utils.scoring import add_relevance_scores
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent
@@ -120,12 +121,18 @@ def main():
     print(f"Active opportunities: {len(active)}")
     print(f"Total archived: {len(updated_archive)}")
 
-    # Sort by deadline (None deadlines at end)
+    # Add relevance scores based on user interests
+    active = add_relevance_scores(active)
+
+    # Sort by relevance score (high first), then by deadline (soon first)
     def sort_key(opp):
+        score = opp.get("relevance_score", 0)
         deadline = parse_deadline(opp.get("deadline"))
+        # Primary: negative score (so higher scores come first)
+        # Secondary: deadline (None deadlines at end)
         if deadline:
-            return (0, deadline)
-        return (1, datetime.max)
+            return (-score, 0, deadline)
+        return (-score, 1, datetime.max)
 
     active.sort(key=sort_key)
 
