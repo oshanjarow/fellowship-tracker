@@ -1,163 +1,208 @@
 [
   {
+    "title": "Grant to Attend Dataharvest 2026",
+    "url": "https://gfmd.info/fundings/grant-to-attend-dataharvest-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.714931",
+    "deadline": "02/02/2026",
+    "organisation": null,
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "\u20ac700"
+  },
+  {
+    "title": "Travel grant for event on public interest reporting and AI practices",
+    "url": "https://gfmd.info/fundings/travel-grant-for-event-on-public-interest-reporting-and-ai/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.714794",
+    "deadline": "18/02/2026",
+    "organisation": "Tactical Tech",
+    "region": null,
+    "funding_size": "\u20ac1000"
+  },
+  {
+    "title": "Media Forward Fund for independent media in DACH region",
+    "url": "https://gfmd.info/fundings/media-forward-fund-for-independent-media-in-dach-region/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.714702",
+    "deadline": "20/02/2026",
+    "organisation": "Media Forward Fund",
+    "region": null,
+    "funding_size": "\u20ac200,000 - \u20ac400,000"
+  },
+  {
+    "title": "European Cross-border Grants",
+    "url": "https://gfmd.info/fundings/european-cross-border-grants-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715056",
+    "deadline": "19/03/2026",
+    "organisation": "Journalismfund Europe",
+    "region": null,
+    "funding_size": "\u20ac1,120,000"
+  },
+  {
+    "title": "Global AI Accelerator for Media",
+    "url": "https://gfmd.info/fundings/global-ai-accelerator-for-media/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.714993",
+    "deadline": "04/02/2026",
+    "organisation": "The International Press Institute (IPI)",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "up to $14,000"
+  },
+  {
+    "title": "Journalism Partnerships \u2013 Collaborations (2026)",
+    "url": "https://gfmd.info/fundings/journalism-partnerships-collaborations-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715345",
+    "deadline": "04/02/2026",
+    "organisation": "European Commission",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "\u20ac2 million."
+  },
+  {
+    "title": "Call for Proposals: Journalism Partnerships \u2013 Collaborations",
+    "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715574",
+    "deadline": "04/02/2026",
+    "organisation": "European Commission",
+    "region": null,
+    "funding_size": "\u20ac6.9 million."
+  },
+  {
+    "title": "Ukraine: Relief, Resilience, Recovery (U3R) Program",
+    "url": "https://gfmd.info/fundings/ukraine-relief-resilience-recovery-u3r-program/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715634",
+    "deadline": "31/05/2026",
+    "organisation": "German Marshall Fund",
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "USD 25,000 per project."
+  },
+  {
+    "title": "George Weidenfeld Journalism Fellowship Program",
+    "url": "https://gfmd.info/fundings/george-weidenfeld-journalism-fellowship-program/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "funding",
+    "scraped_at": "2026-01-28T17:17:32.715229",
+    "deadline": "16/06/2026",
+    "organisation": "International Journalists\u2019 Programme",
+    "region": null,
+    "funding_size": "\u20ac3,800"
+  },
+  {
+    "title": "Ukraine \u2013 UNESCO IPDC Call for Project Proposals 2026",
+    "url": "https://gfmd.info/fundings/ukraine-unesco-ipdc-call-for-project-proposals-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.714866",
+    "deadline": "08/02/2026",
+    "organisation": "International Programme for the Development of Communication (IPDC)",
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "US$10,000-35,000"
+  },
+  {
     "title": "\u00bbTipsheet",
     "url": "https://gijn.org/./resource/tipsheet/",
     "description": "Attendees of the GIJC23 in Gothenburg, Sweden. Image:  GIJN/Wolf France",
     "source": "GIJN",
     "source_url": "https://gijn.org/resource/grants-fellowships/",
     "type": "grant/fellowship",
-    "scraped_at": "2026-01-28T16:39:21.488852",
+    "scraped_at": "2026-01-28T17:17:32.116848",
     "deadline": null
   },
   {
-    "title": "Media Forward Fund for independent media in DACH regionOrganisation:Media Forward FundRegion:Europe (Central, Northern, Southern, Western)Status:OpenDeadline:20/02/2026Type:GrantFunding Size:\u20ac200,000 - \u20ac400,000",
-    "url": "https://gfmd.info/fundings/media-forward-fund-for-independent-media-in-dach-region/",
-    "description": "Organisation:Media Forward Fund",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.062030",
-    "deadline": null
-  },
-  {
-    "title": "Travel grant for event on public interest reporting and AI practicesOrganisation:Tactical TechRegion:Europe (Central, Northern, Southern, Western)Status:OpenDeadline:18/02/2026Type:GrantFunding Size:\u20ac1000",
-    "url": "https://gfmd.info/fundings/travel-grant-for-event-on-public-interest-reporting-and-ai/",
-    "description": "Organisation:Tactical Tech",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.062317",
-    "deadline": null
-  },
-  {
-    "title": "Ukraine \u2013 UNESCO IPDC Call for Project Proposals 2026Organisation:International Programme for the Development of Communication (IPDC)Region:Eastern Europe, Caucasus, and Central AsiaStatus:OpenDeadline:08/02/2026Type:GrantFunding Size:US$10,000-35,000",
-    "url": "https://gfmd.info/fundings/ukraine-unesco-ipdc-call-for-project-proposals-2026/",
-    "description": "Organisation:International Programme for the Development of Communication (IPDC)",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.062603",
-    "deadline": null
-  },
-  {
-    "title": "Grant to Attend Dataharvest 2026Organisation:Balkan Investigative Reporting Network (BIRN)Region:Eastern Europe, Caucasus, and Central AsiaStatus:OpenDeadline:02/02/2026Type:GrantFunding Size:\u20ac700",
-    "url": "https://gfmd.info/fundings/grant-to-attend-dataharvest-2026/",
-    "description": "Organisation:Balkan Investigative Reporting Network (BIRN)",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.062878",
-    "deadline": null
-  },
-  {
-    "title": "Global AI Accelerator for MediaOrganisation:The International Press Institute (IPI)Region:Global (working in 2 or more regions)Status:OpenDeadline:04/02/2026Type:GrantFunding Size:up to $14,000",
-    "url": "https://gfmd.info/fundings/global-ai-accelerator-for-media/",
-    "description": "Organisation:The International Press Institute (IPI)",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.063176",
-    "deadline": null
-  },
-  {
-    "title": "European Cross-border GrantsOrganisation:Journalismfund EuropeRegion:Europe (Central, Northern, Southern, Western)Status:OpenDeadline:19/03/2026Type:GrantFunding Size:\u20ac1,120,000",
-    "url": "https://gfmd.info/fundings/european-cross-border-grants-2026/",
-    "description": "Organisation:Journalismfund Europe",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.063512",
-    "deadline": null
-  },
-  {
-    "title": "Pulitzer Center Global Reporting GrantsOrganisation:Pulitzer CenterRegion:Global (working in 2 or more regions)Status:OpenDeadline:OngoingType:GrantFunding Size:USD 5,000 - 10,000",
+    "title": "Pulitzer Center Global Reporting Grants",
     "url": "https://gfmd.info/fundings/pulitzer-center-global-reporting-grants/",
-    "description": "Organisation:Pulitzer Center",
+    "description": "",
     "source": "GFMD",
     "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.063988",
-    "deadline": null
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715113",
+    "deadline": null,
+    "organisation": "Pulitzer Center",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "USD 5,000 - 10,000"
   },
   {
-    "title": "Advancing Democracy Innovation FundOrganisation:Solutions Journalism Network (SJN)Region:North AmericaStatus:OpenDeadline:OngoingType:GrantFunding Size:USD 4,000",
+    "title": "Advancing Democracy Innovation Fund",
     "url": "https://gfmd.info/fundings/advancing-democracy-innovation-fund/",
-    "description": "Organisation:Solutions Journalism Network (SJN)",
+    "description": "",
     "source": "GFMD",
     "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.064319",
-    "deadline": null
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715172",
+    "deadline": null,
+    "organisation": "Solutions Journalism Network (SJN)",
+    "region": "North America",
+    "funding_size": "USD 4,000"
   },
   {
-    "title": "George Weidenfeld Journalism Fellowship ProgramOrganisation:International Journalists\u2019 ProgrammeRegion:Europe (Central, Northern, Southern, Western)Status:OpenDeadline:16/06/2026Type:FellowshipFunding Size:\u20ac3,800",
-    "url": "https://gfmd.info/fundings/george-weidenfeld-journalism-fellowship-program/",
-    "description": "Organisation:International Journalists\u2019 Programme",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.064656",
-    "deadline": null
-  },
-  {
-    "title": "Democracy x AI CohortOrganisation:MozillaRegion:Global (working in 2 or more regions)Status:OpenDeadline:OngoingType:GrantFunding Size:$1,000,000 globally.",
+    "title": "Democracy x AI Cohort",
     "url": "https://gfmd.info/fundings/democracy-x-ai-cohort/",
-    "description": "Organisation:Mozilla",
+    "description": "",
     "source": "GFMD",
     "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.065001",
-    "deadline": null
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715287",
+    "deadline": null,
+    "organisation": "Mozilla",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "$1,000,000 globally."
   },
   {
-    "title": "Journalism Partnerships \u2013 Collaborations (2026)Organisation:European CommissionRegion:Global (working in 2 or more regions)Status:OpenDeadline:04/02/2026Type:GrantFunding Size:\u20ac2 million.",
-    "url": "https://gfmd.info/fundings/journalism-partnerships-collaborations-2026/",
-    "description": "Organisation:European Commission",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.065328",
-    "deadline": null
-  },
-  {
-    "title": "AI Reporting GrantsOrganisation:Pulitzer CenterRegion:Global (working in 2 or more regions)Status:OpenDeadline:OngoingType:GrantFunding Size:Funding covers hard reporting costs",
+    "title": "AI Reporting Grants",
     "url": "https://gfmd.info/fundings/ai-reporting-grants/",
-    "description": "Organisation:Pulitzer Center",
+    "description": "",
     "source": "GFMD",
     "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.065622",
-    "deadline": null
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715414",
+    "deadline": null,
+    "organisation": "Pulitzer Center",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "Funding covers hard reporting costs"
   },
   {
-    "title": "Tech Journalism FundOrganisation:Omidyar NetworkRegion:North AmericaStatus:OpenDeadline:OngoingType:GrantFunding Size:Up to to $25,000.",
+    "title": "Tech Journalism Fund",
     "url": "https://gfmd.info/fundings/tech-journalism-fund/",
-    "description": "Organisation:Omidyar Network",
+    "description": "",
     "source": "GFMD",
     "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.065910",
-    "deadline": null
-  },
-  {
-    "title": "Call for Proposals: Journalism Partnerships \u2013 CollaborationsOrganisation:European CommissionRegion:Europe (Central, Northern, Southern, Western)Status:OpenDeadline:04/02/2026Type:GrantFunding Size:\u20ac6.9 million.",
-    "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations/",
-    "description": "Organisation:European Commission",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.066195",
-    "deadline": null
-  },
-  {
-    "title": "Ukraine: Relief, Resilience, Recovery (U3R) ProgramOrganisation:German Marshall FundRegion:Eastern Europe, Caucasus, and Central AsiaStatus:OpenDeadline:31/05/2026Type:GrantFunding Size:USD 25,000 per project.",
-    "url": "https://gfmd.info/fundings/ukraine-relief-resilience-recovery-u3r-program/",
-    "description": "Organisation:German Marshall Fund",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "funding",
-    "scraped_at": "2026-01-28T16:39:22.066483",
-    "deadline": null
+    "type": "Grant",
+    "scraped_at": "2026-01-28T17:17:32.715472",
+    "deadline": null,
+    "organisation": "Omidyar Network",
+    "region": "North America",
+    "funding_size": "Up to to $25,000."
   },
   {
     "title": "\"I was bored, and everything felt impossible\"",
@@ -166,7 +211,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482468",
+    "scraped_at": "2026-01-28T17:17:33.177895",
     "published_at": "2026-01-27T12:50:22",
     "deadline": null
   },
@@ -177,7 +222,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482497",
+    "scraped_at": "2026-01-28T17:17:33.177923",
     "published_at": "2026-01-14T12:39:00",
     "deadline": null
   },
@@ -188,7 +233,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482518",
+    "scraped_at": "2026-01-28T17:17:33.177944",
     "published_at": "2026-01-04T19:45:03",
     "deadline": null
   },
@@ -199,7 +244,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482539",
+    "scraped_at": "2026-01-28T17:17:33.177964",
     "published_at": "2025-12-22T19:16:37",
     "deadline": null
   },
@@ -210,7 +255,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482559",
+    "scraped_at": "2026-01-28T17:17:33.177984",
     "published_at": "2025-11-18T14:34:56",
     "deadline": null
   },
@@ -221,7 +266,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482577",
+    "scraped_at": "2026-01-28T17:17:33.178002",
     "published_at": "2025-10-14T20:58:04",
     "deadline": null
   },
@@ -232,7 +277,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482594",
+    "scraped_at": "2026-01-28T17:17:33.178020",
     "published_at": "2025-10-02T20:42:26",
     "deadline": null
   },
@@ -243,7 +288,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482611",
+    "scraped_at": "2026-01-28T17:17:33.178037",
     "published_at": "2025-09-18T11:18:33",
     "deadline": null
   },
@@ -254,7 +299,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482649",
+    "scraped_at": "2026-01-28T17:17:33.178076",
     "published_at": "2025-07-17T12:14:36",
     "deadline": null
   },
@@ -265,7 +310,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482666",
+    "scraped_at": "2026-01-28T17:17:33.178093",
     "published_at": "2025-07-01T12:08:25",
     "deadline": null
   },
@@ -276,7 +321,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482682",
+    "scraped_at": "2026-01-28T17:17:33.178109",
     "published_at": "2025-06-18T13:29:42",
     "deadline": null
   },
@@ -287,7 +332,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482701",
+    "scraped_at": "2026-01-28T17:17:33.178128",
     "published_at": "2025-06-13T11:57:17",
     "deadline": null
   },
@@ -298,7 +343,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482718",
+    "scraped_at": "2026-01-28T17:17:33.178145",
     "published_at": "2025-06-05T17:51:32",
     "deadline": null
   },
@@ -309,7 +354,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482735",
+    "scraped_at": "2026-01-28T17:17:33.178162",
     "published_at": "2025-05-29T11:03:16",
     "deadline": null
   },
@@ -320,7 +365,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482751",
+    "scraped_at": "2026-01-28T17:17:33.178178",
     "published_at": "2025-05-15T13:10:54",
     "deadline": null
   },
@@ -331,7 +376,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482767",
+    "scraped_at": "2026-01-28T17:17:33.178195",
     "published_at": "2025-05-08T20:20:51",
     "deadline": null
   },
@@ -342,7 +387,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482784",
+    "scraped_at": "2026-01-28T17:17:33.178211",
     "published_at": "2025-05-07T14:28:10",
     "deadline": null
   },
@@ -353,7 +398,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482800",
+    "scraped_at": "2026-01-28T17:17:33.178227",
     "published_at": "2025-05-01T10:27:22",
     "deadline": null
   },
@@ -364,7 +409,7 @@
     "source": "Wild Writing",
     "source_url": "https://wildwriting.substack.com/feed",
     "type": "newsletter",
-    "scraped_at": "2026-01-28T16:39:22.482816",
+    "scraped_at": "2026-01-28T17:17:33.178244",
     "published_at": "2025-04-24T10:47:23",
     "deadline": null
   },
@@ -375,7 +420,7 @@
     "source": "Berkeley BCSP Ferriss Fellowship",
     "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:22.986353",
+    "scraped_at": "2026-01-28T17:17:33.610193",
     "deadline": null,
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/"
   },
@@ -386,7 +431,7 @@
     "source": "NYU Matthew Power Award",
     "source_url": "https://journalism.nyu.edu/about-us/awards-and-fellowships/matthew-power-literary-reporting-award/",
     "type": "award",
-    "scraped_at": "2026-01-28T16:39:23.819579",
+    "scraped_at": "2026-01-28T17:17:34.658375",
     "deadline": null
   },
   {
@@ -396,7 +441,7 @@
     "source": "Columbia Journalism Fellowships",
     "source_url": "https://journalism.columbia.edu/fellowships",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:23.976307",
+    "scraped_at": "2026-01-28T17:17:34.834263",
     "deadline": null,
     "scrape_error": "403 Client Error: Forbidden for url: https://journalism.columbia.edu/fellowships"
   },
@@ -407,7 +452,7 @@
     "source": "Knight-Wallace Fellowships",
     "source_url": "https://wallacehouse.umich.edu/knight-wallace/",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:24.521926",
+    "scraped_at": "2026-01-28T17:17:35.329404",
     "deadline": null
   },
   {
@@ -417,7 +462,7 @@
     "source": "Nieman Fellowships",
     "source_url": "https://nieman.harvard.edu/fellowships/",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:24.682804",
+    "scraped_at": "2026-01-28T17:17:35.834524",
     "deadline": null
   },
   {
@@ -427,7 +472,7 @@
     "source": "USC Annenberg Fellowships",
     "source_url": "https://annenberg.usc.edu/journalism/fellowships",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:25.239929",
+    "scraped_at": "2026-01-28T17:17:35.894381",
     "deadline": null,
     "scrape_error": "404 Client Error: Not Found for url: https://annenberg.usc.edu/journalism/fellowships"
   },
@@ -438,7 +483,7 @@
     "source": "Northwestern Medill Fellowships",
     "source_url": "https://www.medill.northwestern.edu/professional-education/",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:25.553564",
+    "scraped_at": "2026-01-28T17:17:36.110268",
     "deadline": null,
     "scrape_error": "404 Client Error: Not Found for url: https://www.medill.northwestern.edu/professional-education/"
   },
@@ -449,7 +494,7 @@
     "source": "NEA Creative Writing Fellowships",
     "source_url": "https://www.arts.gov/grants/creative-writing-fellowships",
     "type": "fellowship",
-    "scraped_at": "2026-01-28T16:39:26.113766",
+    "scraped_at": "2026-01-28T17:17:36.302259",
     "deadline": null,
     "scrape_error": "403 Client Error: Forbidden for url: https://www.arts.gov/grants/creative-writing-fellowships"
   },
@@ -460,7 +505,7 @@
     "source": "Whiting Foundation",
     "source_url": "https://www.whiting.org/writers/creative-nonfiction-grant",
     "type": "grant",
-    "scraped_at": "2026-01-28T16:39:26.559613",
+    "scraped_at": "2026-01-28T17:17:36.560762",
     "deadline": null
   },
   {
@@ -470,7 +515,7 @@
     "source": "Fund for Investigative Journalism",
     "source_url": "https://fij.org/grants/",
     "type": "grant",
-    "scraped_at": "2026-01-28T16:39:27.629704",
+    "scraped_at": "2026-01-28T17:17:36.938567",
     "deadline": null
   }
 ]

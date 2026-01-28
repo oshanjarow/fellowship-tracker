@@ -42,18 +42,36 @@ title: Fellowship & Grant Tracker
       <a href="{{ opp.url }}" target="_blank" rel="noopener">{{ opp.title }}</a>
     </h2>
 
-    <div class="card-meta">
-      <span class="source">{{ opp.source }}</span>
-      <span class="type">{{ opp.type }}</span>
+    <div class="card-details">
+      {% if opp.funding_size %}
+      <span class="detail">
+        <span class="amount">{{ opp.funding_size }}</span>
+      </span>
+      {% endif %}
+
       {% if opp.deadline %}
-      <span class="deadline">Deadline: {{ opp.deadline | formatDate }}</span>
-      {% else %}
-      <span class="deadline no-deadline">No deadline listed</span>
+      <span class="detail">
+        <span class="deadline{% if opp.deadline | isClosingSoon %} urgent{% endif %}">{{ opp.deadline }}</span>
+      </span>
+      {% endif %}
+
+      {% if opp.region %}
+      <span class="detail">
+        <span class="region">{{ opp.region }}</span>
+      </span>
       {% endif %}
     </div>
 
-    {% if opp.description %}
-    <p class="card-description">{{ opp.description | truncate(250) }}</p>
+    <div class="card-meta">
+      <span class="source">{{ opp.source }}</span>
+      <span class="type">{{ opp.type }}</span>
+      {% if opp.organisation %}
+      <span class="org">{{ opp.organisation }}</span>
+      {% endif %}
+    </div>
+
+    {% if opp.description and opp.description.length > 10 %}
+    <p class="card-description">{{ opp.description | truncate(200) }}</p>
     {% endif %}
 
     <a href="{{ opp.url }}" class="card-link" target="_blank" rel="noopener">
@@ -67,7 +85,7 @@ title: Fellowship & Grant Tracker
 
 <footer class="footer">
   <p>Data is scraped automatically from multiple sources. Always verify details on the original website.</p>
-  <p>Sources: GIJN, GFMD, FundsForWriters, and various J-school fellowship programs.</p>
+  <p>Sources: GIJN, GFMD, and various journalism fellowship programs.</p>
 </footer>
 
 <script>
@@ -82,7 +100,7 @@ title: Fellowship & Grant Tracker
 
     cards.forEach(card => {
       const cardType = card.dataset.type || '';
-      const hasNoDeadline = card.querySelector('.no-deadline') !== null;
+      const hasDeadline = card.querySelector('.deadline') !== null;
 
       let show = true;
 
@@ -90,7 +108,7 @@ title: Fellowship & Grant Tracker
         show = false;
       }
 
-      if (hideEmpty && hasNoDeadline) {
+      if (hideEmpty && !hasDeadline) {
         show = false;
       }
 
