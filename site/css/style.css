@@ -17,8 +17,8 @@
   --color-border-hover: rgba(26, 26, 26, 0.2);
   --color-accent: #D4AF37;
   --color-accent-muted: rgba(212, 175, 55, 0.15);
-  --color-urgent: #B91C1C;
-  --color-urgent-bg: #FEF2F2;
+  --color-urgent: #C26E4B;
+  --color-urgent-bg: #FBF5F2;
 
   /* Typography */
   --font-serif: 'Playfair Display', Georgia, serif;
