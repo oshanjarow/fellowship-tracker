@@ -12,6 +12,7 @@ JSCHOOL_SOURCES = [
         "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
         "type": "fellowship",
         "known_amount": "$10,000",  # Per recipient
+        "known_deadline": "January 31, 2026",
         "known_description": "The Ferriss Fellowship supports journalists pursuing long-form narrative projects. Fellows receive funding and mentorship at UC Berkeley's Graduate School of Journalism."
     },
     {
@@ -164,8 +165,8 @@ def scrape() -> List[dict]:
             # Extract funding amount from page, fallback to known amount
             funding_size = extract_funding_amount(page_text) or source.get("known_amount")
 
-            # Look for deadline information
-            deadline = extract_deadline(page_text)
+            # Look for deadline information, fallback to known deadline
+            deadline = extract_deadline(page_text) or source.get("known_deadline")
 
             # Use known description if scraped one is empty
             if not description and source.get("known_description"):
@@ -194,7 +195,7 @@ def scrape() -> List[dict]:
                 "source_url": source["url"],
                 "type": source["type"],
                 "scraped_at": datetime.utcnow().isoformat(),
-                "deadline": None,
+                "deadline": source.get("known_deadline"),
                 "funding_size": source.get("known_amount"),
                 "scrape_error": str(e),
             })
