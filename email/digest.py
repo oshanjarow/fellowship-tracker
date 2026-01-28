@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generate and send biweekly email digest."""
+"""Generate and send biweekly email digest via Gmail SMTP."""
 
 import json
 import os
+import smtplib
 from datetime import datetime, timedelta
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from pathlib import Path
 from typing import Optional, List
-
-import resend
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent
@@ -15,7 +16,7 @@ DATA_DIR = SCRIPT_DIR.parent / "data"
 OPPORTUNITIES_FILE = DATA_DIR / "opportunities.json"
 
 
-def load_opportunities() -> list[dict]:
+def load_opportunities() -> List[dict]:
     """Load opportunities from JSON file."""
     if OPPORTUNITIES_FILE.exists():
         with open(OPPORTUNITIES_FILE) as f:
@@ -34,7 +35,7 @@ def parse_deadline(deadline_str: Optional[str]) -> Optional[datetime]:
         return None
 
 
-def get_closing_soon(opportunities: list[dict], days: int = 14) -> list[dict]:
+def get_closing_soon(opportunities: List[dict], days: int = 14) -> List[dict]:
     """Get opportunities closing within the next N days."""
     cutoff = datetime.now() + timedelta(days=days)
     closing = []
@@ -48,7 +49,7 @@ def get_closing_soon(opportunities: list[dict], days: int = 14) -> list[dict]:
     return sorted(closing, key=lambda x: x["_parsed_deadline"])
 
 
-def get_new_opportunities(opportunities: list[dict], days: int = 14) -> list[dict]:
+def get_new_opportunities(opportunities: List[dict], days: int = 14) -> List[dict]:
     """Get opportunities scraped within the last N days."""
     cutoff = datetime.now() - timedelta(days=days)
     new_opps = []
@@ -89,7 +90,7 @@ def format_opportunity_html(opp: dict) -> str:
     """
 
 
-def generate_digest_html(closing_soon: list[dict], new_opps: list[dict], site_url: str) -> str:
+def generate_digest_html(closing_soon: List[dict], new_opps: List[dict], site_url: str) -> str:
     """Generate the full email digest HTML."""
     today = datetime.now().strftime("%B %d, %Y")
 
@@ -146,18 +147,18 @@ def generate_digest_html(closing_soon: list[dict], new_opps: list[dict], site_ur
 
 
 def send_digest():
-    """Send the digest email."""
+    """Send the digest email via Gmail SMTP."""
     # Get environment variables
-    api_key = os.environ.get("RESEND_API_KEY")
-    email_to = os.environ.get("EMAIL_TO")
-    site_url = os.environ.get("SITE_URL", "https://yourusername.github.io/fellowship-tracker")
+    gmail_address = os.environ.get("GMAIL_ADDRESS")
+    gmail_app_password = os.environ.get("GMAIL_APP_PASSWORD")
+    site_url = os.environ.get("SITE_URL", "https://oshanjarow.github.io/fellowship-tracker")
 
-    if not api_key:
-        print("ERROR: RESEND_API_KEY not set")
+    if not gmail_address:
+        print("ERROR: GMAIL_ADDRESS not set")
         return False
 
-    if not email_to:
-        print("ERROR: EMAIL_TO not set")
+    if not gmail_app_password:
+        print("ERROR: GMAIL_APP_PASSWORD not set")
         return False
 
     # Load and process opportunities
@@ -173,20 +174,24 @@ def send_digest():
     # Generate email
     html_content = generate_digest_html(closing_soon, new_opps, site_url)
 
-    # Send via Resend
-    resend.api_key = api_key
-
+    # Create message
     today = datetime.now().strftime("%B %d, %Y")
     subject = f"Fellowship & Grant Digest - {today}"
 
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = gmail_address
+    msg["To"] = gmail_address  # Send to yourself
+
+    # Attach HTML content
+    msg.attach(MIMEText(html_content, "html"))
+
+    # Send via Gmail SMTP
     try:
-        response = resend.Emails.send({
-            "from": "Fellowship Tracker <onboarding@resend.dev>",
-            "to": [email_to],
-            "subject": subject,
-            "html": html_content,
-        })
-        print(f"Email sent successfully! ID: {response['id']}")
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(gmail_address, gmail_app_password)
+            server.sendmail(gmail_address, gmail_address, msg.as_string())
+        print("Email sent successfully!")
         return True
     except Exception as e:
         print(f"Error sending email: {e}")

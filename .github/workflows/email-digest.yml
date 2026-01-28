@@ -25,7 +25,7 @@ jobs:
 
       - name: Send digest email
         env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          SITE_URL: ${{ vars.SITE_URL || 'https://yourusername.github.io/fellowship-tracker' }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SITE_URL: https://oshanjarow.github.io/fellowship-tracker
         run: python email/digest.py
