@@ -10,25 +10,24 @@ title: Fellowship & Grant Tracker
 
 <div class="filters">
   <label>
-    <span>Filter by type:</span>
+    <span>Filter</span>
     <select id="type-filter">
       <option value="all">All types</option>
       <option value="fellowship">Fellowships</option>
       <option value="grant">Grants</option>
       <option value="award">Awards</option>
-      <option value="funding">Funding</option>
     </select>
   </label>
   <label>
     <input type="checkbox" id="hide-no-deadline">
-    Hide items without deadlines
+    <span>With deadlines only</span>
   </label>
 </div>
 
 <div class="stats">
   <span><strong>{{ opportunities.length }}</strong> opportunities</span>
-  <span class="divider">|</span>
-  <span>Updated: {{ "now" | formatDate }}</span>
+  <span class="divider">·</span>
+  <span>Updated {{ "now" | formatDate }}</span>
 </div>
 
 <main class="opportunities">
@@ -44,21 +43,15 @@ title: Fellowship & Grant Tracker
 
     <div class="card-details">
       {% if opp.funding_size %}
-      <span class="detail">
-        <span class="amount">{{ opp.funding_size }}</span>
-      </span>
+      <span class="detail amount">{{ opp.funding_size }}</span>
       {% endif %}
 
       {% if opp.deadline %}
-      <span class="detail">
-        <span class="deadline{% if opp.deadline | isClosingSoon %} urgent{% endif %}">{{ opp.deadline }}</span>
-      </span>
+      <span class="detail deadline{% if opp.deadline | isClosingSoon %} urgent{% endif %}">{{ opp.deadline }}</span>
       {% endif %}
 
       {% if opp.region %}
-      <span class="detail">
-        <span class="region">{{ opp.region }}</span>
-      </span>
+      <span class="detail region">{{ opp.region }}</span>
       {% endif %}
     </div>
 
@@ -66,30 +59,29 @@ title: Fellowship & Grant Tracker
       <span class="source">{{ opp.source }}</span>
       <span class="type">{{ opp.type }}</span>
       {% if opp.organisation %}
-      <span class="org">{{ opp.organisation }}</span>
+      <span class="org">via {{ opp.organisation }}</span>
       {% endif %}
     </div>
 
-    {% if opp.description and opp.description.length > 10 %}
-    <p class="card-description">{{ opp.description | truncate(200) }}</p>
+    {% if opp.description and opp.description.length > 20 %}
+    <p class="card-description">{{ opp.description | truncate(180) }}</p>
     {% endif %}
 
     <a href="{{ opp.url }}" class="card-link" target="_blank" rel="noopener">
-      View opportunity &rarr;
+      View opportunity
     </a>
   </article>
   {% else %}
-  <p class="empty-state">No opportunities found. Check back soon!</p>
+  <p class="empty-state">No opportunities found. Check back soon.</p>
   {% endfor %}
 </main>
 
 <footer class="footer">
-  <p>Data is scraped automatically from multiple sources. Always verify details on the original website.</p>
-  <p>Sources: GIJN, GFMD, and various journalism fellowship programs.</p>
+  <p>Data is scraped automatically and may not be complete. Always verify on the original source.</p>
+  <p>Sources include GIJN, GFMD, and various fellowship programs.</p>
 </footer>
 
 <script>
-  // Filter functionality
   const typeFilter = document.getElementById('type-filter');
   const hideNoDeadline = document.getElementById('hide-no-deadline');
   const cards = document.querySelectorAll('.card');
