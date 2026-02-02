@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Reporting grants supporting in-depth print and audio journalism on the science, policy, business, and culture of psychedelics. A project of the UC Berkeley Center for the Science of Psychedelics.",
+    "eligibility": "Open to journalists of all nationalities and backgrounds. No residency requirement.",
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-01-28T18:05:25.442640",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "relevance_score": 39,
+    "archived_at": "2026-02-02T06:56:51.991519"
+  },
+  {
+    "title": "Grant to Attend Dataharvest 2026",
+    "url": "https://gfmd.info/fundings/grant-to-attend-dataharvest-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T18:05:24.979831",
+    "deadline": "02/02/2026",
+    "organisation": null,
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "\u20ac700",
+    "relevance_score": 0,
+    "archived_at": "2026-02-02T06:56:51.991666"
+  }
+]
