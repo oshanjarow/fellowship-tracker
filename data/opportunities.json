@@ -122,6 +122,20 @@
     "relevance_score": 10
   },
   {
+    "title": "Environmental Investigative Journalism Grants",
+    "url": "https://gfmd.info/fundings/environmental-investigative-journalism-grant/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-09T06:58:09.360504",
+    "deadline": "23/04/2026",
+    "organisation": "Journalismfund Europe",
+    "region": null,
+    "funding_size": "\u20ac400,000 per round",
+    "relevance_score": 10
+  },
+  {
     "title": "George Weidenfeld Journalism Fellowship Program",
     "url": "https://gfmd.info/fundings/george-weidenfeld-journalism-fellowship-program/",
     "description": "",
@@ -214,6 +228,20 @@
     "eligibility": "Anyone can apply - individuals, groups, or organizations.",
     "bypass_filter": true,
     "relevance_score": 7
+  },
+  {
+    "title": "Pulitzer Center Environmental Reporting Grants",
+    "url": "https://gfmd.info/fundings/pulitzer-center-environmental-reporting-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-09T06:58:09.360718",
+    "deadline": "28/02/2026",
+    "organisation": "Pulitzer Center",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "$5,000 - $15,000",
+    "relevance_score": 5
   },
   {
     "title": "USC Annenberg Fellowships",
@@ -366,6 +394,20 @@
     "organisation": "Earth Journalism Network",
     "region": "Eastern Europe, Caucasus, and Central Asia",
     "funding_size": "\u20ac1,200",
+    "relevance_score": 0
+  },
+  {
+    "title": "Reporting Grants for Forest Governance Issues in Africa and Asia",
+    "url": "https://gfmd.info/fundings/reporting-grants-for-forest-governance-issues-in-africa-and-asia/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-09T06:58:09.360351",
+    "deadline": "26/02/2026",
+    "organisation": "Earth Journalism Network",
+    "region": "Asia, Pacific, and Oceania",
+    "funding_size": "10,000 GBP",
     "relevance_score": 0
   },
   {
