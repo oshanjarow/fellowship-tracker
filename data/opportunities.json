@@ -67,6 +67,20 @@
     "relevance_score": 17
   },
   {
+    "title": "U.S. Journalist Rapid Response Fund (JRRF)",
+    "url": "https://gfmd.info/fundings/journalist-rapid-response-fund-minnesota/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-16T06:56:45.223864",
+    "deadline": null,
+    "organisation": "Committee to Protect Journalists (CPJ)",
+    "region": "North America",
+    "funding_size": "$500",
+    "relevance_score": 17
+  },
+  {
     "title": "Matthew Power Literary Reporting Award",
     "url": "https://journalism.nyu.edu/about-us/awards-and-fellowships/matthew-power-literary-reporting-award/",
     "description": "Matthew Power (Photo: Amber Hunt) Matthew Power was an award-winning journalist who reported empathetically onthe human condition. He died in March 2014, while on assignment in Uganda. To learn about Power\u2019s body of work, visithis website.",
@@ -105,6 +119,20 @@
     "organisation": "Tactical Tech",
     "region": null,
     "funding_size": "\u20ac1000",
+    "relevance_score": 10
+  },
+  {
+    "title": "IJ4EU Freelancer Support Scheme",
+    "url": "https://gfmd.info/fundings/ij4eu-freelancer-support-scheme-2/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-16T06:56:45.224124",
+    "deadline": "13/04/2026",
+    "organisation": "Investigative Journalism for Europe (IJ4EU)",
+    "region": null,
+    "funding_size": "\u20ac20,000",
     "relevance_score": 10
   },
   {
@@ -436,6 +464,20 @@
     "organisation": "International Programme for the Development of Communication (IPDC)",
     "region": "Eastern Europe, Caucasus, and Central Asia",
     "funding_size": "US$10,000-35,000",
+    "relevance_score": 0
+  },
+  {
+    "title": "Pulitzer Center Rainforest Reporting Grant",
+    "url": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-16T06:56:45.223996",
+    "deadline": null,
+    "organisation": "Pulitzer Center",
+    "region": "Asia, Pacific, and Oceania",
+    "funding_size": "N/A",
     "relevance_score": 0
   }
 ]
