@@ -84,5 +84,49 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-02-16T06:56:52.554758"
+  },
+  {
+    "title": "Travel grant for event on public interest reporting and AI practices",
+    "url": "https://gfmd.info/fundings/travel-grant-for-event-on-public-interest-reporting-and-ai/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-01-28T18:05:24.979701",
+    "deadline": "18/02/2026",
+    "organisation": "Tactical Tech",
+    "region": null,
+    "funding_size": "\u20ac1000",
+    "relevance_score": 10,
+    "archived_at": "2026-02-19T06:54:07.585956"
+  },
+  {
+    "title": "Story Grants for Biodiversity Reporting in Western Balkans",
+    "url": "https://gfmd.info/fundings/story-grants-for-biodiversity-reporting-in-western-balkans/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-02T06:56:45.553532",
+    "deadline": "19/02/2026",
+    "organisation": "Earth Journalism Network",
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "\u20ac1,200",
+    "relevance_score": 0,
+    "archived_at": "2026-02-19T06:54:07.586211"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-02-19T06:54:02.379054",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-02-19T06:54:07.586468"
   }
 ]
