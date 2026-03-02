@@ -186,5 +186,34 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-02-26T06:53:20.784104"
+  },
+  {
+    "title": "Pulitzer Center Environmental Reporting Grants",
+    "url": "https://gfmd.info/fundings/pulitzer-center-environmental-reporting-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-09T06:58:09.360718",
+    "deadline": "28/02/2026",
+    "organisation": "Pulitzer Center",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "$5,000 - $15,000",
+    "relevance_score": 5,
+    "archived_at": "2026-03-02T06:50:20.730319"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-03-02T06:50:13.994158",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-03-02T06:50:20.730714"
   }
 ]
