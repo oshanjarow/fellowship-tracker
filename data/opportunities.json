@@ -136,6 +136,20 @@
     "relevance_score": 10
   },
   {
+    "title": "IJ4EU cross-border investigative journalism grants",
+    "url": "https://gfmd.info/fundings/ij4eu-cross-border-investigative-journalism-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-03-16T07:09:09.806313",
+    "deadline": "13/04/2026",
+    "organisation": "The International Press Institute (IPI)",
+    "region": null,
+    "funding_size": "\u20ac20,000 - \u20ac50,000",
+    "relevance_score": 10
+  },
+  {
     "title": "Pascal Decroos Fund for investigative journalism in Dutch media",
     "url": "https://gfmd.info/fundings/pascal-decroos-fund-for-investigative-journalism-in-dutch-media/",
     "description": "",
@@ -175,6 +189,34 @@
     "organisation": "International Journalists\u2019 Programme",
     "region": null,
     "funding_size": "\u20ac3,800",
+    "relevance_score": 10
+  },
+  {
+    "title": "Vienna Media Initiative Grants",
+    "url": "https://gfmd.info/fundings/vienna-media-initiative-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-03-16T07:09:09.806544",
+    "deadline": "31/07/2026",
+    "organisation": "Vienna Business Agency",
+    "region": null,
+    "funding_size": "\u20ac100,000",
+    "relevance_score": 10
+  },
+  {
+    "title": "Sweden \u2013 Lithuania Media Grants",
+    "url": "https://gfmd.info/fundings/sweden-lithuania-media-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-03-16T07:09:09.806663",
+    "deadline": "12/04/2026",
+    "organisation": "Sweden \u2013 Lithuania Cooperation Fund",
+    "region": null,
+    "funding_size": "N/A",
     "relevance_score": 10
   },
   {
@@ -256,20 +298,6 @@
     "eligibility": "Anyone can apply - individuals, groups, or organizations.",
     "bypass_filter": true,
     "relevance_score": 7
-  },
-  {
-    "title": "Mozilla Foundation Incubator Democracy x AI Cohort",
-    "url": "https://gfmd.info/fundings/democracy-x-ai-cohort/",
-    "description": "",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "Grant",
-    "scraped_at": "2026-02-19T06:54:01.740759",
-    "deadline": "16/03/2026",
-    "organisation": "Mozilla",
-    "region": "Global (working in 2 or more regions)",
-    "funding_size": "$50,000",
-    "relevance_score": 5
   },
   {
     "title": "Human-Centred Conservation Storytelling Grant Program",

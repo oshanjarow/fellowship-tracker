@@ -257,5 +257,34 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-03-12T06:46:14.754651"
+  },
+  {
+    "title": "Mozilla Foundation Incubator Democracy x AI Cohort",
+    "url": "https://gfmd.info/fundings/democracy-x-ai-cohort/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-02-19T06:54:01.740759",
+    "deadline": "16/03/2026",
+    "organisation": "Mozilla",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "$50,000",
+    "relevance_score": 5,
+    "archived_at": "2026-03-16T07:09:15.190354"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-03-16T07:09:10.342130",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-03-16T07:09:15.190914"
   }
 ]
