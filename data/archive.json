@@ -314,5 +314,34 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-03-23T07:02:45.483839"
+  },
+  {
+    "title": "Grant Competition for Regional Media (Ukraine)",
+    "url": "https://gfmd.info/fundings/grant-competition-for-regional-media-ukraine/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-03-23T07:02:39.021272",
+    "deadline": "24/03/2026",
+    "organisation": "Fondation Hirondelle",
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "3,500 Swiss francs",
+    "relevance_score": 0,
+    "archived_at": "2026-03-26T07:00:46.223643"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-03-26T07:00:41.245940",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-03-26T07:00:46.223925"
   }
 ]
