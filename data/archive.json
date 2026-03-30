@@ -343,5 +343,34 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-03-26T07:00:46.223925"
+  },
+  {
+    "title": "U.S. Journalists grants for Global South health reporting",
+    "url": "https://gfmd.info/fundings/u-s-journalists-grants-for-global-south-health-reporting/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-03-09T06:54:34.836625",
+    "deadline": "30/03/2026",
+    "organisation": "Pulitzer Center",
+    "region": "North America",
+    "funding_size": "$5,000 to $20,000",
+    "relevance_score": 20,
+    "archived_at": "2026-03-30T07:19:31.249747"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-03-30T07:19:25.848570",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-03-30T07:19:31.250523"
   }
 ]
