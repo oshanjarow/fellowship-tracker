@@ -430,5 +430,19 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-04-06T07:21:40.415762"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-04-09T07:14:25.491278",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-04-09T07:14:32.854544"
   }
 ]
