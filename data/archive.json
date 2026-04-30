@@ -721,5 +721,33 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-04-27T08:11:54.739469"
+  },
+  {
+    "title": "Pan-European Reporting Grants 2026",
+    "url": "https://gfmd.info/fundings/pan-european-reporting-grants-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-04-30T08:10:19.546583",
+    "deadline": "02/06/2026",
+    "organisation": "European Commission",
+    "region": null,
+    "funding_size": "\u20ac2.7 million - \u20ac8.5 million",
+    "archived_at": "2026-04-30T08:10:25.978052"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-04-30T08:10:20.226122",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-04-30T08:10:25.978112"
   }
 ]
