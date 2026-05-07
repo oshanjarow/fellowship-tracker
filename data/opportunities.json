@@ -108,6 +108,19 @@
     "relevance_score": 12
   },
   {
+    "title": "PEN America Literary Awards",
+    "url": "https://pen.org/literary-awards/",
+    "description": "Visit https://pen.org/literary-awards/ for more information.",
+    "source": "PEN America Literary Awards",
+    "source_url": "https://pen.org/literary-awards/",
+    "type": "award",
+    "scraped_at": "2026-05-07T08:24:30.982880",
+    "deadline": null,
+    "funding_size": null,
+    "scrape_error": "403 Client Error: Forbidden for url: https://pen.org/literary-awards/",
+    "relevance_score": 11
+  },
+  {
     "title": "Environmental Investigative Journalism Grants",
     "url": "https://gfmd.info/fundings/environmental-investigative-journalism-grants/",
     "description": "",
