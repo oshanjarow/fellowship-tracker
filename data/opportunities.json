@@ -135,6 +135,20 @@
     "relevance_score": 11
   },
   {
+    "title": "Feminist investigative journalism scholarship",
+    "url": "https://gfmd.info/fundings/feminist-investigative-journalism-scholarship/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Scholarship",
+    "scraped_at": "2026-05-21T09:27:42.127537",
+    "deadline": "31/05/2026",
+    "organisation": "Institute for Journalism and Social Change (IJSC)",
+    "region": null,
+    "funding_size": "\u00a312,000",
+    "relevance_score": 10
+  },
+  {
     "title": "EC grants for not-for-profit media in Zimbabwe",
     "url": "https://gfmd.info/fundings/ec-grants-for-not-for-profit-media-in-zimbabwe/",
     "description": "",
@@ -575,6 +589,34 @@
     "organisation": "Oxfam Pacific",
     "region": "Asia, Pacific, and Oceania",
     "funding_size": "EUR 10,000",
+    "relevance_score": 0
+  },
+  {
+    "title": "Yaqeen Grants (Pakistan)",
+    "url": "https://gfmd.info/fundings/yaqeen-grants-pakistan/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-05-21T09:27:42.127756",
+    "deadline": "31/05/2026",
+    "organisation": "Freedom Network",
+    "region": "Asia, Pacific, and Oceania",
+    "funding_size": "NA",
+    "relevance_score": 0
+  },
+  {
+    "title": "Inclusive Water Governance Reporting Grants (Mekong region)",
+    "url": "https://gfmd.info/fundings/inclusive-water-governance-reporting-grants-mekong-region/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-05-21T09:27:42.127663",
+    "deadline": "14/06/2026",
+    "organisation": "Earth Journalism Network",
+    "region": "Asia, Pacific, and Oceania",
+    "funding_size": "$2,000",
     "relevance_score": 0
   },
   {
