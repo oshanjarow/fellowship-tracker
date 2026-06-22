@@ -219,6 +219,20 @@
     "relevance_score": 10
   },
   {
+    "title": "Invisible Life Grant (Round 4, 2026)",
+    "url": "https://gfmd.info/fundings/invisible-life-grant-round-4-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-06-22T11:41:10.397551",
+    "deadline": "27/08/2026",
+    "organisation": "Journalismfund Europe",
+    "region": null,
+    "funding_size": "\u20ac300,000 available in total",
+    "relevance_score": 10
+  },
+  {
     "title": "Sweden \u2013 Lithuania Media Grants",
     "url": "https://gfmd.info/fundings/sweden-lithuania-media-grants/",
     "description": "",
@@ -352,6 +366,20 @@
     "organisation": "Media Forward Fund",
     "region": null,
     "funding_size": "CHF 125,000",
+    "relevance_score": 7
+  },
+  {
+    "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
+    "url": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-06-22T11:41:10.397678",
+    "deadline": null,
+    "organisation": "Henry Nxumalo FoundationStatus:OpenDeadline:OngoingType:GrantFunding Size:$1,500 - $3,000",
+    "region": null,
+    "funding_size": "$1,500 - $3,000",
     "relevance_score": 7
   },
   {
