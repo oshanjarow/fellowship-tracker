@@ -1715,5 +1715,33 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-07-02T08:45:34.877857"
+  },
+  {
+    "title": "EC grants for not-for-profit media in Zimbabwe",
+    "url": "https://gfmd.info/fundings/ec-grants-for-not-for-profit-media-in-zimbabwe/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-07-06T10:03:56.636695",
+    "deadline": "06/07/2026",
+    "organisation": "European Commission",
+    "region": null,
+    "funding_size": "EUR 1.9 - 2 million",
+    "archived_at": "2026-07-06T10:04:02.563380"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-07-06T10:03:57.044291",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-07-06T10:04:02.563437"
   }
 ]
