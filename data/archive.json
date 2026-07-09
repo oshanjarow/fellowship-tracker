@@ -1743,5 +1743,48 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-07-06T10:04:02.563437"
+  },
+  {
+    "title": "Postcode Lottery Fund for Journalists",
+    "url": "https://gfmd.info/fundings/postcode-lottery-fund-for-journalists-2/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-05-04T08:22:10.617781",
+    "deadline": "07/08/2026",
+    "organisation": "Free Press Unlimited (FPU)",
+    "region": null,
+    "funding_size": "\u20ac4,000",
+    "relevance_score": 10,
+    "archived_at": "2026-07-09T09:27:30.335284"
+  },
+  {
+    "title": "Environmental Investigative Journalism Grants",
+    "url": "https://gfmd.info/fundings/environmental-investigative-journalism-grants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-07-09T09:26:56.550934",
+    "deadline": "06/08/2026",
+    "organisation": "Journalismfund Europe",
+    "region": null,
+    "funding_size": "\u20ac400,000 per round",
+    "archived_at": "2026-07-09T09:27:30.336035"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-07-09T09:26:56.952941",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-07-09T09:27:30.336105"
   }
 ]
