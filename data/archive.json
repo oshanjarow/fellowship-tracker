@@ -1828,5 +1828,47 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-07-13T08:56:01.923455"
+  },
+  {
+    "title": "Mujeres que lideran la transici\u00f3n justa",
+    "url": "https://gfmd.info/fundings/mujeres-que-lideran-la-transicion-justa-women-leading-the-just-transition-initiative/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-07-16T08:01:31.851769",
+    "deadline": "02/08/2026",
+    "organisation": "Climate Tracker Am\u00e9rica Latina",
+    "region": "Latin America and the Caribbean",
+    "funding_size": "Up to $6,500",
+    "archived_at": "2026-07-16T08:01:36.878636"
+  },
+  {
+    "title": "Postcode Lottery Fund for Journalists",
+    "url": "https://gfmd.info/fundings/postcode-lottery-fund-for-journalists-2/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-07-16T08:01:31.853017",
+    "deadline": "07/08/2026",
+    "organisation": "Free Press Unlimited (FPU)",
+    "region": null,
+    "funding_size": "\u20ac4,000",
+    "archived_at": "2026-07-16T08:01:36.878681"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-07-16T08:01:32.373232",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-07-16T08:01:36.878757"
   }
 ]
