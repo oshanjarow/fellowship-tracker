@@ -2384,5 +2384,34 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-08-10T07:18:44.448372"
+  },
+  {
+    "title": "SPJ Foundation 2026 grant cycle",
+    "url": "https://gfmd.info/fundings/spj-foundation-2026-grant-cycle/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-06-08T10:24:29.308475",
+    "deadline": "13/08/2026",
+    "organisation": "Society of Professional Journalists",
+    "region": "North America",
+    "funding_size": "N/A",
+    "relevance_score": 20,
+    "archived_at": "2026-08-13T07:16:41.589022"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-08-13T07:16:26.980391",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-08-13T07:16:41.589979"
   }
 ]
