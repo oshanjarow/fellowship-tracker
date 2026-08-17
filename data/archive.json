@@ -2413,5 +2413,48 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-08-13T07:16:41.589979"
+  },
+  {
+    "title": "Regional Investigative Journalism Grants 2026",
+    "url": "https://gfmd.info/fundings/regional-investigative-journalism-grants-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-08-03T09:31:00.807413",
+    "deadline": "15/08/2026",
+    "organisation": "Engaged Democracy Initiative",
+    "region": "Eastern Europe, Caucasus, and Central Asia",
+    "funding_size": "EUR 2,000",
+    "relevance_score": 0,
+    "archived_at": "2026-08-17T06:39:51.238797"
+  },
+  {
+    "title": "Health Care Journalism Grants 2026\u20132027",
+    "url": "https://gfmd.info/fundings/health-care-journalism-grants-2026-2027/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-08-17T06:39:44.005725",
+    "deadline": "02/10/2026",
+    "organisation": "The National Institute for Health Care Management Foundation (NIHCM)",
+    "region": "North America",
+    "funding_size": "USD 15,000\u2013USD 30,000",
+    "archived_at": "2026-08-17T06:39:51.239010"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-08-17T06:39:44.419927",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-08-17T06:39:51.239187"
   }
 ]
