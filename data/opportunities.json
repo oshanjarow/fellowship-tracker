@@ -163,20 +163,6 @@
     "relevance_score": 11
   },
   {
-    "title": "Biodiversity Reporting Story Grants for West Africa",
-    "url": "https://gfmd.info/fundings/biodiversity-reporting-story-grants-for-west-africa/",
-    "description": "",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "Grant",
-    "scraped_at": "2026-08-17T06:39:44.005963",
-    "deadline": "21/08/2026",
-    "organisation": "Earth Journalism Network",
-    "region": null,
-    "funding_size": "between EUR 1,000 and EUR 2,000",
-    "relevance_score": 10
-  },
-  {
     "title": "Invisible Life Grant (Round 4, 2026)",
     "url": "https://gfmd.info/fundings/invisible-life-grant-round-4-2026/",
     "description": "",
@@ -202,6 +188,20 @@
     "organisation": "Media Innovation Europe Consortium",
     "region": null,
     "funding_size": "up to \u20ac30,000",
+    "relevance_score": 10
+  },
+  {
+    "title": "Belgian Bridge Programme",
+    "url": "https://gfmd.info/fundings/belgian-bridge-programme/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-08-24T06:42:13.493128",
+    "deadline": "15/10/2026",
+    "organisation": "Journalismfund Europe",
+    "region": null,
+    "funding_size": "EUR 100,000 available in total",
     "relevance_score": 10
   },
   {
@@ -534,6 +534,20 @@
     "region": "Global (working in 2 or more regions)",
     "funding_size": "\u20ac10,000 - 12,000",
     "relevance_score": 5
+  },
+  {
+    "title": "Premio Lincoln al Periodismo sobre Pol\u00edticas Urbanas, Desarrollo Sostenible y Cambio Clim\u00e1tico 2026",
+    "url": "https://gfmd.info/fundings/premio-lincoln-al-periodismo-sobre-politicas-urbanas-desarrollo-sostenible-y-cambio-climatico-2026/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Awards and Prizes",
+    "scraped_at": "2026-08-24T06:42:13.493265",
+    "deadline": "30/08/2026",
+    "organisation": "Lincoln Institute of Land Policy",
+    "region": "Latin America and the Caribbean",
+    "funding_size": "Up to USD 3,000",
+    "relevance_score": 4
   },
   {
     "title": "Pulitzer Center Global Reporting Grants",
