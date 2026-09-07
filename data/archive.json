@@ -2741,5 +2741,33 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-09-03T10:31:13.545007"
+  },
+  {
+    "title": "Health Care Journalism Grants 2026\u20132027",
+    "url": "https://gfmd.info/fundings/health-care-journalism-grants-2026-2027/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "Grant",
+    "scraped_at": "2026-09-07T11:17:48.399786",
+    "deadline": "02/10/2026",
+    "organisation": "The National Institute for Health Care Management Foundation (NIHCM)",
+    "region": "North America",
+    "funding_size": "USD 15,000\u2013USD 30,000",
+    "archived_at": "2026-09-07T11:17:55.818649"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-09-07T11:17:49.072464",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-09-07T11:17:55.818715"
   }
 ]
