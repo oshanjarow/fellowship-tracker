@@ -149,34 +149,6 @@
     "relevance_score": 11
   },
   {
-    "title": "Belgian Bridge Programme",
-    "url": "https://gfmd.info/fundings/belgian-bridge-programme/",
-    "description": "",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "Grant",
-    "scraped_at": "2026-08-24T06:42:13.493128",
-    "deadline": "15/10/2026",
-    "organisation": "Journalismfund Europe",
-    "region": null,
-    "funding_size": "EUR 100,000 available in total",
-    "relevance_score": 10
-  },
-  {
-    "title": "Call for organizational grants",
-    "url": "https://gfmd.info/fundings/call-for-organizational-grants/",
-    "description": "",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "Grant",
-    "scraped_at": "2026-10-08T12:37:10.110500",
-    "deadline": "15/10/2026",
-    "organisation": "Civil Society Fund",
-    "region": null,
-    "funding_size": "\u20ac120,000 - \u20ac180,000",
-    "relevance_score": 10
-  },
-  {
     "title": "WCSJ2027 Travel Fellowship",
     "url": "https://gfmd.info/fundings/wcsj2027-travel-fellowship/",
     "description": "",
@@ -367,20 +339,6 @@
     "region": null,
     "funding_size": "$1,500 - $3,000",
     "relevance_score": 7
-  },
-  {
-    "title": "CTRL+J Microgrants",
-    "url": "https://gfmd.info/fundings/ctrlj-microgrants/",
-    "description": "",
-    "source": "GFMD",
-    "source_url": "https://gfmd.info/fundings/",
-    "type": "Grant",
-    "scraped_at": "2026-09-28T12:37:18.090386",
-    "deadline": "15/10/2026",
-    "organisation": null,
-    "region": "Global (working in 2 or more regions)",
-    "funding_size": "US$1,000\u2013US$5,000",
-    "relevance_score": 5
   },
   {
     "title": "Free Press Awards Newcomer of the Year and Most Resilient Journalist",
