@@ -4122,5 +4122,61 @@
     "funding_size": "$10,000",
     "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
     "archived_at": "2026-11-16T14:29:48.903232"
+  },
+  {
+    "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship",
+    "url": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "funding",
+    "scraped_at": "2026-11-19T15:01:19.055176",
+    "deadline": "01/12/2026",
+    "organisation": null,
+    "region": "Middle East and North Africa",
+    "funding_size": "$4,900 per month",
+    "archived_at": "2026-11-19T15:01:24.234008"
+  },
+  {
+    "title": "International Nieman Fellowship",
+    "url": "https://gfmd.info/fundings/international-nieman-fellowship/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "funding",
+    "scraped_at": "2026-11-19T15:01:19.055222",
+    "deadline": "01/12/2026",
+    "organisation": "Nieman Foundation",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": "N/A",
+    "archived_at": "2026-11-19T15:01:24.234034"
+  },
+  {
+    "title": "Knight-Wallace Fellowship (International Applicants)",
+    "url": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants/",
+    "description": "",
+    "source": "GFMD",
+    "source_url": "https://gfmd.info/fundings/",
+    "type": "funding",
+    "scraped_at": "2026-11-19T15:01:19.055275",
+    "deadline": "01/12/2026",
+    "organisation": "Wallace House Center for Journalists",
+    "region": "Global (working in 2 or more regions)",
+    "funding_size": null,
+    "archived_at": "2026-11-19T15:01:24.234054"
+  },
+  {
+    "title": "Berkeley BCSP Ferriss Fellowship",
+    "url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "description": "Unable to fetch current information. Visit https://fellowships.journalism.berkeley.edu/bcsp/ for details.",
+    "eligibility": null,
+    "source": "Berkeley BCSP Ferriss Fellowship",
+    "source_url": "https://fellowships.journalism.berkeley.edu/bcsp/",
+    "type": "fellowship",
+    "scraped_at": "2026-11-19T15:01:19.584095",
+    "deadline": "January 31, 2026",
+    "funding_size": "$10,000",
+    "scrape_error": "403 Client Error: Forbidden for url: https://fellowships.journalism.berkeley.edu/bcsp/",
+    "archived_at": "2026-11-19T15:01:24.234097"
   }
 ]
